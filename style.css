@@ -1,0 +1,71 @@
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border: 1px solid #f5f5f5;
+  width: 1000px;
+  height: 550px;
+  background-color: #f5f5f5;
+}
+
+.budget {
+  border: 3px solid #3a7231;
+  width: 300px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.expense {
+  border: 3px solid rgb(155, 25, 23);
+  width: 300px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  margin-left: 30px;
+}
+
+input {
+  width: 290px;
+  height: 20px;
+  outline: none;
+}
+
+button {
+  height: 25px;
+}
+
+.box {
+  color: #3a7231;
+  border: 1px solid #3a7231;
+}
+
+.boxTwo {
+  color: rgb(155, 25, 23);
+  border: 1px solid rgb(155, 25, 23);
+}
+
+.text {
+  border: 3px solid grey;
+  width: 300px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.green{
+    color:#3a7231;
+}
+
+.red{
+    color:rgb(155, 25, 23);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Spline Sans', sans-serif;
+}

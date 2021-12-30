@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Spline+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div >
+      <h1 class="title">BUDGET APP</h1>
+      <div class="container-2"> 
+     <div class="budget">
+        <p>Please Enter Your Budget</p>
+        <p><input class="box" id="budgetInput" /></p>
+        <p><button class="box" id="btnCalculate">Calculate</button></p>
+      </div>
+      <div class="text">
+        <p class="green">BUDGET:<div  id="budget" value="" class="green">0</div></p>
+        <p class="red">EXPENSE:<div  id="expense" value="" class="red"> 0</div></p>
+        <p class="green">BALANCE:<div  id="balance" value="" class="green"> 0</div></p>
+      </div>
+      <div class="expense">
+        <p>Please Enter Expense Amount</p>
+        <p><input class="boxTwo" id='expenseAmountInput'/></p>
+        <p><button class="boxTwo" id="expenseBtn">Add Expense</button></p>
+      </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
